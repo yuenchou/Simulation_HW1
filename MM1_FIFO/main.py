@@ -16,8 +16,8 @@ interarrival_times = [random.randint(1, 6) for _ in range(num_customers)]
 service_times = [random.randint(1, 6) for _ in range(num_customers)]
 
 # arrival    
+# waiting line
 # service
-# wait
 # depart
 
 for i in range(num_customers):

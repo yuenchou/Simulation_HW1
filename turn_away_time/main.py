@@ -13,8 +13,8 @@ def turn_away_time():
     
     
     # arrival    
+    # waiting line
     # service
-    # wait
     # depart
     arrival_number = 0 
     service_number = 0 
