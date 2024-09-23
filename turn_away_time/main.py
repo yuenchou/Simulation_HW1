@@ -81,7 +81,6 @@ def turn_away_time():
         else:
             next_event_time = next_arrival_time
         timer += 1
-        print(line_quantity)
     return timer
 
 
