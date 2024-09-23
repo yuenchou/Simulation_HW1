@@ -1,6 +1,6 @@
 import numpy as np
 
-def monte_carlo_integration(f, a, b, num_samples, round):
+def monte_carlo_integration(f, a, b, num_samples):
     """
     使用蒙特卡羅方法估算定積分 ∫_a^b f(x) dx
     param f: 被積分的函數
@@ -17,7 +17,6 @@ def monte_carlo_integration(f, a, b, num_samples, round):
     average_value = np.mean(f_samples)
     # 積分近似值
     integral_estimate = (b - a) * average_value
-    print(f"EST{round + 1} : {integral_estimate}")
     return integral_estimate
 
 # 積分函數
@@ -36,7 +35,7 @@ integral_value = []
 
 # 重複做5組積分
 for i in range(repeat_time):
-    temp = monte_carlo_integration(f, a, b, num_samples, i)
+    temp = monte_carlo_integration(f, a, b, num_samples)
     integral_value.append(temp)
 
 
