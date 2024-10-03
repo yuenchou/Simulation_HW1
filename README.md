@@ -17,9 +17,15 @@ Homework #2
 
 Modify the code for the single-server queue in Sec. 1.4.4 to compute and write in
 addition the following measures of performance:
+
 (a) The time-average number in the system (see Prob. 1.3)
+
 (b) The average total time in the system (see Prob. 1.5)
+
 (c) The maximum queue length (see Prob. 1.6)
+
 (d) The maximum delay in queue
+
 (e) The maximum time in the system
+
 (f) The proportion of customers having a delay in queue in excess of 1 minute
