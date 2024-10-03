@@ -12,3 +12,14 @@ Homework #1 due on September 25
 
 4. Consider the same single-server queueing system as that is question 3. above, except that
    now suppose the queue only has room for three customers to wait (i.e., the buffer size is 3.) We want to know the expected time it takes until a customer is turned away. Obviously, you only need to simulate the system until the first turn away occurs. Does this a bunch of times and calculate the sample average
+
+Homework #2
+
+Modify the code for the single-server queue in Sec. 1.4.4 to compute and write in
+addition the following measures of performance:
+(a) The time-average number in the system (see Prob. 1.3)
+(b) The average total time in the system (see Prob. 1.5)
+(c) The maximum queue length (see Prob. 1.6)
+(d) The maximum delay in queue
+(e) The maximum time in the system
+(f) The proportion of customers having a delay in queue in excess of 1 minute
